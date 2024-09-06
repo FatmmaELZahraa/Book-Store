@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This is our Course Website" />
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <script src="signup.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+</head>
+
+<body>
+
+    <header>
+       
+    </header>
+
+    <div class="signup">
+        <img src="sign.gif" length="100" width="350"
+            alt="Logo Testing">
+        <form id="inputForm">
+            <hr>
+            <div>
+                <div class="inputField">
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    <i class='bx bxs-user'></i>
+                    <div id="nameError" class="error"></div>
+                </div>
+                <br>
+                <div class="inputField">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                    <div id="emailError" class="error"></div>
+                </div>
+                <br>
+                <div class="inputField">
+                    <input type="password" id="pass" name="pass" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                    <div id="passError" class="error"></div>
+                </div>
+                <br>
+                <div class="inputField">
+                    <input type="password" id="confpass" name="confpass" placeholder="Confirm Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                    <div id="passConfError" class="error"></div>
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="extra" name="extra" required>
+                <label for="extra">you agree to our Terms of Use and Privacy Policy.</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" id="sub" value="Sign Up">
+            </div>
+            <hr>
+            <br>
+            <p><b>Already have an account?</b>
+                <a href="login.html">Log in</a>
+            </p>
+        </form>
+    </div>
+    <br>
+    <footer>
+       
+
+    </footer>
+
+</body>
+
+</html>

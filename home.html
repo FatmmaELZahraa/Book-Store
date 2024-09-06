@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <div class="header">
+    <nav class="navbar bg-body-tertiary  bg-body-tertiary1 d-flex justify-content-space-evenly">
+      <div class="container-fluid me-5   pe-5">
+        <a class= "navbar-brand  ms-lg-5 ps-5 pe-5" >Book store</a>
+        <form class="d-flex  me-auto ps-5" role="search">
+          <input class="form-control me-2 ms-lg-5 pe-5 px-4" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info rounded-pill" type="submit">Search</button>
+        </form>
+        <form class="d-flex me-lg-auto ps-5 py-sm-3" role="search">
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping pe-5"></i></a>
+          <i class="fa-regular fa-heart"></i>
+        </form>
+        <div class="icon"> <a href="user.html"><i class="fa-solid fa-user"></i></a></div>
+      </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary  bg-body-tertiary2 ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white me-5 px-lg-5 m-ms-0" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white me-5 px-lg-5  m-ms-0" href="#Trending Books">Trending Books
+              </a>
+              <a class="nav-link text-white me-5 px-lg-5  m-ms-0" href="#best">Best-Selling </a>
+              <a class="nav-link text-white me-5 px-lg-5  m-ms-0" href="#child">Children Books</a>
+              <a class="nav-link text-white me-5 px-lg-5  m-ms-0" href="#reco">Recommendations</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </div>
+      <!-- landing -->
+      <div class="landing position-relative ">
+        <h1 class="text-white  position-absolute p-5 rounded-3 top-50 start-50 translate-middle"> Up To 75% Discount</h1>
+      </div>
+      
+    
+       <div id="Trending Books" class="trending p-2  text-center"><h2>Trending Books</h2></div>
+       <div
+      id="carouselExampleControls"
+      class="carousel carousel-dark slide mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrapper  d-flex justify-content-evenly">
+            <!-- //////////////////// -->
+            <div class="card " style="width: 18rem">
+              <img
+                src="book1.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ahmed Hatem</h5>
+               <h6 class="card-text">
+                 Enas Tannous samir
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Ahmed Hatem"
+                        data-price="190"
+                        data-image="book1.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+              <h4>190 Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- ////////////////////// -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book2.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fatma El Zahraa</h5>
+               <h6 class="card-text">
+                 Enas Tannous samir
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Fatma El Zahraa"
+                        data-price="450"
+                        data-image="book2.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">580 Eg</h4>
+              <h4>450 Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- /// -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book3.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rahma Touni</h5>
+               <h6 class="card-text">
+                 Enas Tannous samir
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Rahma Touni"
+                        data-price="190"
+                        data-image="book3.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">280 Eg</h4>
+              <h4>290Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- ///// -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book5.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mona Ashraf</h5>
+               <h6 class="card-text">
+                 Enas Tannous samir
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Mona Ashraf"
+                        data-price="380"
+                        data-image="book5.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">400 Eg</h4>
+              <h4>380Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /////// -->
+        <div class="carousel-item ">
+          <div class="card-wrapper  d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem">
+              <img
+                src="book13.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">May be Iam TheProblem</h5>
+               <h6 class="card-text">
+                 Fan El-harb
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Dr Bothaina"
+                        data-price="480"
+                        data-image="book13.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">600Eg</h4>
+              <h4>480Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- /////////////////////////// -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book12.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dr Bothaina</h5>
+               <h6 class="card-text">
+             Being Happy
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Dr Bothaina"
+                        data-price="480"
+                        data-image="book12.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">600Eg</h4>
+              <h4>480Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- //////////////// -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book5.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Laila Ahmed</h5>
+               <h6 class="card-text">
+                 Fan El-harb
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Laila Ahmed"
+                        data-price="480"
+                        data-image="book5.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">400Eg</h4>
+              <h4>280Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- ////////////// -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book8.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Eng Bothaina</h5>
+               <h6 class="card-text">
+                Translate
+               </h6>
+               <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+                <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                        data-name="Eng Bothaina"
+                        data-price="480"
+                        data-image="book8.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+             <div class="cardfoottext ">
+              <h4 class="price text-danger text-decoration-line-through ">100Eg</h4>
+              <h4>20Eg</h4>
+             </div>
+            </div>
+              </div>
+            </div>
+            <!-- /////////// -->
+          </div>
+        </div>
+       
+        <button
+          class="carousel-control-prev  "
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next  "
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="best" class="trending p-2  text-center mt-4"><h2>Best-selling Arabic books</h2></div>     
+    <div
+   id="carouselExampleControls2"
+   class="carousel carousel-dark slide mt-5"
+   data-bs-ride="carousel"
+ >
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card-wrapper  d-flex justify-content-evenly">
+        <div class="card " style="width: 18rem">
+          <img
+            src="book25.jfif"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Fan Elharb</h5>
+           <h6 class="card-text">
+             Enas Tannous samir
+           </h6>
+           <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+         <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+         <div class="cardfoottext ">
+          <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+          <h4>190 Eg</h4>
+         </div>
+        </div>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem">
+          <img
+            src="book14.jfif"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ahmed Galal</h5>
+           <h6 class="card-text">
+             Fan El-harb
+           </h6>
+           <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+            <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                    data-name="Ahmed Galal"
+                    data-price="480"
+                    data-image="book14.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+         <div class="cardfoottext ">
+          <h4 class="price text-danger text-decoration-line-through ">600Eg</h4>
+          <h4>480Eg</h4>
+         </div>
+        </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="book15.jfif"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Esraa Ali</h5>
+           <h6 class="card-text">
+             Fan El-harb
+           </h6>
+           <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+            <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                    data-name="Esraa Ali"
+                    data-price="180"
+                    data-image="book15.jfif"><i class="fa-solid fa-cart-shopping"></i></button>
+         <div class="cardfoottext ">
+          <h4 class="price text-danger text-decoration-line-through ">450Eg</h4>
+          <h4>180Eg</h4>
+         </div>
+        </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="book24.jfif"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Fan Elharb</h5>
+           <h6 class="card-text">
+             Enas Tannous samir
+           </h6>
+           <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+         <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+         <div class="cardfoottext ">
+          <h4 class="text-danger text-decoration-line-through ">400 Eg</h4>
+          <h4>380 Eg</h4>
+         </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="carousel-item ">
+       <div class="card-wrapper  d-flex justify-content-evenly">
+         <div class="card " style="width: 18rem">
+           <img
+             src="book29.webp"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="card-body">
+             <h5 class="card-title">Fan Elharb</h5>
+            <h6 class="card-text">
+              Enas Tannous samir
+            </h6>
+            <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+          <div class="cardfoottext ">
+           <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+           <h4>190 Eg</h4>
+          </div>
+         </div>
+           </div>
+         </div>
+         
+         <div class="card" style="width: 18rem">
+           <img
+             src="book27.jpg"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="card-body">
+             <h5 class="card-title">Fan Elharb</h5>
+            <h6 class="card-text">
+              Enas Tannous samir
+            </h6>
+            <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+          <div class="cardfoottext ">
+           <h4 class="text-danger text-decoration-line-through ">580 Eg</h4>
+           <h4>450 Eg</h4>
+          </div>
+         </div>
+           </div>
+         </div>
+         <div class="card" style="width: 18rem">
+           <img
+             src="book30.webp"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="card-body">
+             <h5 class="card-title">Fan Elharb</h5>
+            <h6 class="card-text">
+              Enas Tannous samir
+            </h6>
+            <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+          <div class="cardfoottext ">
+           <h4 class="text-danger text-decoration-line-through ">360 Eg</h4>
+           <h4>290 Eg</h4>
+          </div>
+         </div>
+           </div>
+         </div>
+         <div class="card" style="width: 18rem">
+           <img
+             src="book28.webp"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="card-body">
+             <h5 class="card-title">Fan Elharb</h5>
+            <h6 class="card-text">
+              Enas Tannous samir
+            </h6>
+            <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+          <div class="cardfoottext ">
+           <h4 class="text-danger text-decoration-line-through ">400 Eg</h4>
+           <h4>380 Eg</h4>
+          </div>
+         </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     
+    
+     <button
+       class="carousel-control-prev text-white "
+       type="button"
+       data-bs-target="#carouselExampleControls2"
+       data-bs-slide="prev"
+     >
+       <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
+       <span class="visually-hidden text-white">Previous</span>
+     </button>
+     <button
+       class="carousel-control-next text-white "
+       type="button"
+       data-bs-target="#carouselExampleControls2"
+       data-bs-slide="next"
+     >
+       <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+       <span class="visually-hidden text-white">Next</span>
+     </button>
+   </div>
+ </div>
+ <div id="child" class="trending p-2  text-center mt-4"><h2> Children Books</h2></div> 
+ <div
+ id="carouselExampleControls3"
+ class="carousel carousel-dark slide mt-5"
+ data-bs-ride="carousel"
+>
+ <div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="card-wrapper  d-flex justify-content-evenly">
+      <div class="card " style="width: 18rem">
+        <img
+          src="child1edit.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body mt-5">
+          <h5 class="card-title">Fan Elharb</h5>
+         <h6 class="card-text">
+           Enas Tannous samir
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+       <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+       <div class="cardfoottext ">
+        <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+        <h4>190 Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem">
+        <img
+          src="child8.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Somia Omar</h5>
+         <h6 class="card-text">
+          Go Home
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                  data-name="Somia Omar"
+                  data-price="480"
+                  data-image="child8.webp"><i class="fa-solid fa-cart-shopping"></i></button>
+       <div class="cardfoottext ">
+        <h4 class="price text-danger text-decoration-line-through ">200Eg</h4>
+        <h4>120Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="child9.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Asmaa Galal</h5>
+         <h6 class="card-text">
+           Be silent
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                  data-name="Asmaa Galal"
+                  data-price="480"
+                  data-image="child9.webp"><i class="fa-solid fa-cart-shopping"></i></button>
+       <div class="cardfoottext ">
+        <h4 class="price text-danger text-decoration-line-through ">600Eg</h4>
+        <h4>480Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="child2.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Zeina Awad</h5>
+         <h6 class="card-text">
+          Small King
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+          <button id="addToCartBtn" class="px-4 rounded-pill align-items-center justify-content-center d-flex"
+                  data-name="Zeina Awad"
+                  data-price="480"
+                  data-image="child2.jpg"><i class="fa-solid fa-cart-shopping"></i></button>
+       <div class="cardfoottext ">
+        <h4 class="price text-danger text-decoration-line-through ">600Eg</h4>
+        <h4>480Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="carousel-item ">
+     <div class="card-wrapper  d-flex justify-content-evenly">
+       <div class="card " style="width: 18rem">
+         <img
+           src="child3.webp"
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body mt-5 pt-3">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+         <h4>190 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+       
+       <div class="card" style="width: 18rem">
+         <img
+           src="child14.jpg"
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body  mt-5 pt-5">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">580 Eg</h4>
+         <h4>450 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+       <div class="card" style="width: 18rem">
+         <img
+           src="child6.jpg "
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body mt-5 pt-5">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">360 Eg</h4>
+         <h4>290 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+       <div class="card" style="width: 18rem">
+         <img
+           src="child13.webp "
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">400 Eg</h4>
+         <h4>380 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+  
+   <button
+     class="carousel-control-prev text-white "
+     type="button"
+     data-bs-target="#carouselExampleControls3"
+     data-bs-slide="prev"
+   >
+     <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
+     <span class="visually-hidden text-white">Previous</span>
+   </button>
+   <button
+     class="carousel-control-next text-white "
+     type="button"
+     data-bs-target="#carouselExampleControls3"
+     data-bs-slide="next"
+   >
+     <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+     <span class="visually-hidden text-white">Next</span>
+   </button>
+ </div>
+</div>
+<div id="reco" class="trending p-2  text-center mt-4"><h2> Book Store Recommendations</h2></div>
+<div
+ id="carouselExampleControls4"
+ class="carousel carousel-dark slide mt-5"
+ data-bs-ride="carousel"
+>
+ <div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="card-wrapper  d-flex justify-content-evenly">
+      <!-- ////// -->
+      <div class="card " style="width: 18rem">
+        <img
+          src="reco5.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body mt-5">
+          <h5 class="card-title">Fan Elharb</h5>
+         <h6 class="card-text">
+           Enas Tannous samir
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+       <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+       <div class="cardfoottext ">
+        <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+        <h4>190 Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+      <!-- /////// -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="reco4.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body mt-5 ">
+          <h5 class="card-title">Fan Elharb</h5>
+         <h6 class="card-text">
+           Enas Tannous samir
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+       <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+       <div class="cardfoottext ">
+        <h4 class="text-danger text-decoration-line-through ">580 Eg</h4>
+        <h4>450 Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="reco3.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body mt-4 pt-5">
+          <h5 class="card-title">Fan Elharb</h5>
+         <h6 class="card-text">
+           Enas Tannous samir
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+       <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+       <div class="cardfoottext ">
+        <h4 class="text-danger text-decoration-line-through ">360 Eg</h4>
+        <h4>290 Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="reco6.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body mt-5 pt-5 ">
+          <h5 class="card-title">Fan Elharb</h5>
+         <h6 class="card-text">
+           Enas Tannous samir
+         </h6>
+         <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+       <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+       <div class="cardfoottext ">
+        <h4 class="text-danger text-decoration-line-through ">400 Eg</h4>
+        <h4>380 Eg</h4>
+       </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="carousel-item ">
+     <div class="card-wrapper  d-flex justify-content-evenly">
+       <div class="card " style="width: 18rem">
+         <img
+           src="reco10.png"
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body mt-5 pt-4">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir ter Lorem ipsum dolor sit ametLorem ipsum dolor sit ametter Lorem ipsum 
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">280 Eg</h4>
+         <h4>190 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+       
+       <div class="card" style="width: 18rem">
+         <img
+           src="reco7.jfif"
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body  mt-5 pt-5">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir ter Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">580 Eg</h4>
+         <h4>450 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+       <div class="card" style="width: 18rem">
+         <img
+           src="reco9.webp"
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body mt-5 pt-5">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir 
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">360 Eg</h4>
+         <h4>290 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+       <div class="card" style="width: 18rem">
+         <img
+           src="reco11.jpg"
+           class="card-img-top"
+           alt="..."
+         />
+         <div class="card-body mt-4 pt-5">
+           <h5 class="card-title">Fan Elharb</h5>
+          <h6 class="card-text">
+            Enas Tannous samir ter Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.
+          </h6>
+          <div class="cardfoot d-flex align-content-center justify-content-between mt-4">
+        <button class="  px-4  rounded-pill align-items-center justify-content-center d-flex"><a href="#" > <i class="fa-solid fa-cart-shopping "></i></a></button>
+        <div class="cardfoottext ">
+         <h4 class="text-danger text-decoration-line-through ">400 Eg</h4>
+         <h4>380 Eg</h4>
+        </div>
+       </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+  
+   <button
+     class="carousel-control-prev text-white "
+     type="button"
+     data-bs-target="#carouselExampleControls4"
+     data-bs-slide="prev"
+   >
+     <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
+     <span class="visually-hidden text-white">Previous</span>
+   </button>
+   <button
+     class="carousel-control-next text-white "
+     type="button"
+     data-bs-target="#carouselExampleControls4"
+     data-bs-slide="next"
+   >
+     <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+     <span class="visually-hidden text-white">Next</span>
+   </button>
+ </div>
+</div> 
+    <!--footer-->
+    <div class="footer pt-4">
+      <div class="section1">
+          <a class= "navbar-brand navbrand ms-lg-5 ps-5 pe-5" >Book store</a>
+          <div class="ftext">
+              Omnis ipsam vero doloremque commodi saepe id cumque! Optio!
+          </div>
+         
+          <div class="mall">
+              <i class="fa-solid fa-location-dot"></i>
+              #21,mall of mysore 
+              <br>
+              M.G road
+              <br>
+             Mysore-57001
+          </div>
+      </div>
+      <div class="section2">
+          <h3>Pages</h3>
+          <div class="lin d-flex flex-column">
+          <a class=" text-white "  href="#">Home</a>
+          <a class="text-white " href="#Trending Books">Trending Books
+          </a>
+          <a class=" text-white " href="#best">Best-Selling </a>
+          <a class=" text-white " href="#child">Children Books</a>
+          <a class=" text-white " href="#reco">Recommendations</a>
+        </div>
+      </div>
+     
+      <div class="section3">
+          <h3>Open hours</h3>
+          Monday-friday weeks
+          <br>
+          4:00pm-1:00am
+          <br>
+          <br>
+         
+          Sturday-Sunday weeks
+          <br>
+          4:00pm-3:00am
+      </div>
+      <div class="section2">
+          <h3>Social Media</h3>
+          <div class="soch">
+              <a class="navbar-brand text-white " href="#f">
+          <i class="fa-brands fa-facebook"></i>
+          FaceBook
+          </a>
+      </div>
+        <div class="soch">
+          <a class="navbar-brand text-white" href="#f">
+          <i class="fa-brands fa-google-plus"></i>
+          Google+
+      </a>
+      </div>
+      <div class="soch">
+          <a class="navbar-brand text-white" href="#f">
+          <i class="fa-brands fa-instagram"></i>
+          Instagram
+      </a>
+      </div>
+      <div class="soch">
+          <a class="navbar-brand text-white" href="#f">
+          <i class="fa-brands fa-pinterest"></i>
+          Pinterest
+      </a>
+      </div>
+      <div class="soch">
+          <a class="navbar-brand text-white" href="#f">
+          <i class="fa-brands fa-square-youtube"></i>
+          Youtube
+      </a>
+      </div>
+      </div>
+  </div>
+  <div class="cursur"></div>
+    <button id="scrollToTopBtn"><i  class="fa-solid fa-hand-point-up text-white fs-1"></i></button>
+    <script>
+      
+document.addEventListener('DOMContentLoaded', () => {
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+  window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+          scrollToTopBtn.style.display = 'block';
+      } else {
+          scrollToTopBtn.style.display = 'none';
+      }
+  });
+
+  
+  scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  });
+});
+let cursur = document.querySelector(".cursur");
+addEventListener("mousemove", function(x){
+  cursur.style.cssText=`
+  top:${x.y - 20}px;
+  left:${x.x - 16}px;
+  `
+})
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('#addToCartBtn').forEach(button => {
+      button.addEventListener('click', function() {
+          const bookName = button.getAttribute('data-name');
+          const bookPrice = parseInt(button.getAttribute('data-price'));
+          const bookImage = button.getAttribute('data-image');
+          let cartItems = JSON.parse(localStorage.getItem('prdInCart')) || [];
+          const existingItem = cartItems.find(item => item.name === bookName);
+
+          if (existingItem) {
+              existingItem.quantity += 1;
+              existingItem.totalPrice += bookPrice;
+          } else {
+             
+              const newItem = {
+                  id: Date.now(),  // Unique ID based on timestamp
+                  image: bookImage,
+                  name: bookName,
+                  price: bookPrice,
+                  quantity: 1,
+                  totalPrice: bookPrice
+              };
+              cartItems.push(newItem);
+          }
+          // Save the updated cart to local storage
+          localStorage.setItem('prdInCart', JSON.stringify(cartItems));
+          alert(`${bookName} added to cart!`);
+      });
+  });
+});
+
+    </script>
+    <script src="js/bootstrap.bundle.min.js"> </script> 
+   <script src="js/all.min.js"> </script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>User Dashboard | Library</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-library'></i>
+      <span class="logo-name">User Dashboard</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="home.html" class="active">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="home.html">
+          <i class='bx bx-book'></i>
+          <span class="links_name">My Books</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-bookmark'></i>
+          <span class="links_name">Borrowed Books</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-time'></i>
+          <span class="links_name">Reserved Books</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="links_name">Borrowing History</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-search'></i>
+          <span class="links_name">Search Catalog</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">Settings</span>
+        </a>
+      </li>
+      <li class="log_out">
+        <a href="Logout.html">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Home</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search Books...">
+        <i class='bx bx-search'></i>
+      </div>
+      <div class="profile-details">
+        <img src="images/download (24).jpeg" alt="">
+        <span class="admin_name">Mona Ashraf</span>
+        <i class='bx bx-chevron-down'></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Borrowed Books</div>
+            <div class="number">5</div>
+            <div class="indicator">
+              <i class='bx bx-book-reader'></i>
+              <span class="text">Active Borrowings</span>
+            </div>
+          </div>
+          <i class='bx bx-book'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Reserved Books</div>
+            <div class="number">2</div>
+            <div class="indicator">
+              <i class='bx bx-time'></i>
+              <span class="text">Active Reservations</span>
+            </div>
+          </div>
+          <i class='bx bx-bookmark'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Books Due</div>
+            <div class="number">1</div>
+            <div class="indicator">
+              <i class='bx bx-calendar'></i>
+              <span class="text">Due Today</span>
+            </div>
+          </div>
+          <i class='bx bx-calendar-check'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Borrowed</div>
+            <div class="number">25</div>
+            <div class="indicator">
+              <i class='bx bx-history'></i>
+              <span class="text">Total Books Borrowed</span>
+            </div>
+          </div>
+          <i class='bx bx-book-heart'></i>
+        </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Recently Borrowed Books</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Date</li>
+              <li><a href="#">02 Sep 2024</a></li>
+              <li><a href="#">30 Aug 2024</a></li>
+              <li><a href="#">25 Aug 2024</a></li>
+              <li><a href="#">20 Aug 2024</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Title</li>
+              <li><a href="#">The Silent Patient</a></li>
+              <li><a href="#">1984</a></li>
+              <li><a href="#">Sapiens</a></li>
+              <li><a href="#">To Kill a Mockingbird</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Status</li>
+              <li><a href="#">Borrowed</a></li>
+              <li><a href="#">Borrowed</a></li>
+              <li><a href="#">Returned</a></li>
+              <li><a href="#">Borrowed</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Due Date</li>
+              <li><a href="#">15 Sep 2024</a></li>
+              <li><a href="#">10 Sep 2024</a></li>
+              <li><a href="#">05 Sep 2024</a></li>
+              <li><a href="#">01 Sep 2024</a></li>
+            </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title">Top Borrowed Books</div>
+          <ul class="top-sales-details">
+            <li>
+              <a href="#">
+                <img src="images/5 books to read this March, according to bestselling author Jasmine Guillory.jpeg" alt="">
+                <span class="product">A song called home</span>
+              </a>
+              <span class="price">12 Times</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Powerless_ TikTok Made Me Buy It! The epic romantasy series taking the world by storm! (The Powerless Trilogy).jpeg" alt="">
+                <span class="product">Powerless</span>
+              </a>
+              <span class="price">10 Times</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/The Girl Next Door - Hardcover.jpeg" alt="">
+                <span class="product">The girl next door</span>
+              </a>
+              <span class="price">9 Times</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Things We Never Got Over.jpeg" alt="">
+                <span class="product">Things we never got over</span>
+              </a>
+              <span class="price">8 Times</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   // Access elements
+   let sidebar = document.querySelector(".sidebar");
+   let sidebarBtn = document.querySelector(".sidebarBtn");
+
+   // Load the saved sidebar state from local storage
+   window.onload = function() {
+     if (localStorage.getItem("sidebarState") === "active") {
+       sidebar.classList.add("active");
+       sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+     }
+   };
+
+   // Toggle sidebar and save the state
+   sidebarBtn.onclick = function() {
+     sidebar.classList.toggle("active");
+     if(sidebar.classList.contains("active")){
+       sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+       localStorage.setItem("sidebarState", "active");
+     } else {
+       sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+       localStorage.setItem("sidebarState", "inactive");
+     }
+   }
+  </script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  
+}
+
+.containerr {
+    
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+   margin: 20px;
+}
+.bg-body-tertiary2 , .trending {
+    background-color: #088395 !important;
+    color:white;
+    }
+    .btn:hover{
+        background-color: #0dcaf0 !important;
+        color: aliceblue;
+    }
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+svg {
+    color: #0dcaf0 !important;
+    font-size: 20px;
+ }
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+} 
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    
+}
+
+.quantity button {
+    background-color: #3DBBC7;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+  
+}
+.remove-btn{
+    background-color: #DC143C;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 70px;
+    height: auto;
+    padding: 10px 5px;
+    color: #fff;
+
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-summary h2 {
+    font-size: 24px;
+}
+
+.footer .section1{
+    max-width: 400px;
+    color: aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color:#088395  ;
+    font-size: 20px;
+
+}
+.footer h3 , .navbrand{
+    color:white !important;
+    font-family: "Alex Brush"  , cursive !important ;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.soch{
+    margin-bottom: 5px;
+}
+.footer .section1 , .section2 , .section3 {
+  color: white !important;
+  
+}
+.footer svg{
+    color: aliceblue !important;
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #0dcaf0;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #088395;
+}
+
+.header .navbar-brand{
+    /* font-family:italiano !important; */
+        font-family: "Alex Brush"  , cursive !important ;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 35px;
+        color: #0dcaf0;
+        right: 0;
+      }
